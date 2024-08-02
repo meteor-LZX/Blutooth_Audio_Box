@@ -1,0 +1,12 @@
+SET(SOURCES screens/ui_Screen1.c
+    ui.c
+    components/ui_comp_hook.c
+    ui_helpers.c
+    ui_events.c
+    images/ui_img_desktop_png.c
+    images/ui_img_next_png.c
+    images/ui_img_previous_png.c
+    images/ui_img_play_and_pause_png.c
+    images/ui_img_bluetooth_png.c)
+
+add_library(ui ${SOURCES})
